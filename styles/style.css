@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin:0;
-  box-sizing: border-box;
+
 }
 html{
   background-color: #1a1a1a;
@@ -10,7 +10,7 @@ html{
   scroll-behavior: smooth;
 }
 header{
-  max-width: 100%;
+
   max-height: 30%;
 
 }
@@ -98,12 +98,13 @@ a{
   font-family:'Cutive Mono', monospace;
   font-size: 30px;
   font-weight: lighter;
+  top:-300px;
 }
 .main_photo {
   max-width: 100%;
-  max-height: 600px;
-  opacity:0.25;
-  margin-left: 450px;
+  max-height: 700px;
+  margin-left: 200px;
+  margin-bottom: 100px
 }
 #why{
   background-color: black;
@@ -112,15 +113,15 @@ a{
 #main_description >h1 {
   color:#e6e6e6;
   writing-mode: vertical-rl;
-  margin-top: -200px;
-  margin-left: 60px;
-  word-spacing:7px;
+  margin-top: -450px;
+  margin-left: 50px;
+  word-spacing:10px;
 }
 #main_description >p {
 color:#e6e6e6;
-margin-left: 200px;
+margin-left: 320px;
 font-size: 14px;
-margin-top: -100px;
+margin-top: -60px;
 position: absolute;
 font-family: 'Cutive Mono', monospace;
 
@@ -130,7 +131,7 @@ font-family: 'Cutive Mono', monospace;
   font-weight: bold;
   opacity: 0.8;
   color:#e6e6e6;
-  margin-top:-670px;
+  margin-top:-480px;
   margin-left:650px;
 }
 h3{
@@ -139,13 +140,7 @@ h3{
   font-family: 'Cutive Mono', monospace;
   font-size: 15px;
 }
-#main_photo2{
-  max-width: 700px;
-  max-height: 600px;
-  opacity: 1;
-  margin-top: -390px;
-  margin-bottom: 100px;
-}
+
 .conteiner_1 {
   font-family: 'Cutive Mono', monospace;
   font-size: 1em;
@@ -161,7 +156,7 @@ h3{
   clear: both;
 }
 .about{
-  margin-top:600px;
+  margin-top:800px;
   margin-left: 170px;
   margin-right: 170px;
   margin-bottom: 150px;
@@ -172,6 +167,7 @@ h3{
   background-color: black;
   border:1em solid black;
   box-sizing: border-box;
+  min-width: 80%;
 }
 #about_me {
   font-size: 40px;
@@ -246,7 +242,7 @@ h3{
   margin-right: 200px;
   margin-bottom: 50px;
   margin-top: 60px;
-
+  min-width: 80%;
 }
 #main_ed{
   background-color: black;
@@ -313,7 +309,7 @@ h3{
 }
 #g{
   padding-right: 30px;
-
+  min-width: 100%;
 
 }
 #color{
@@ -326,7 +322,7 @@ h3{
   margin-left: 400px;
   opacity:0.2;
   margin-top: -60px;
-  z-index: 0;
+  min-width: 70%;
   padding-bottom: 70px;
 }
 #general_exp_text {
@@ -337,6 +333,7 @@ h3{
     margin-bottom: 150px;
     opacity:0.85;
     height: 80px;
+    min-width: 75%;
     font-size: 1.3em;
     font-weight: lighter;
     font-family: 'Cutive Mono', monospace;
@@ -368,6 +365,7 @@ h3{
   background-color: black;
   border:1em solid black;
   box-sizing: border-box;
+  min-width: 80%;
 }
 #main_exp{
   max-width: 90%;
@@ -419,12 +417,20 @@ h3{
   font-family: 'Cutive Mono', monospace;
   font-size: 1.2em;
   color:white;
+  font-weight: lighter;
   margin-left: 500px;
   margin-right: 170px;
   text-indent: 45px;
 
+
 }
 /*Style for Photogalery*/
+.content img:hover {
+  -webkit-transform: scale(1.9);
+   -ms-transform: scale(1.9);
+   transform: scale(1.9);
+
+ }
 .content img{
   height: 250px;
   width:200px;
@@ -444,7 +450,7 @@ h3{
 }
 .column {
   float: left;
-  width: 33.33%;
+  width: 31.33%;
   display: none;
 }
 
@@ -485,6 +491,9 @@ h3{
   background-color: #ffff99;
   color: black;
 }
+.row h4{
+  font-weight: 700;
+}
 /*Style for contacts*/
  #cont{
    margin-top: 150px;
@@ -497,45 +506,48 @@ h3{
    background-color: black;
    border:1em solid black;
    z-index: 1;
+   min-width: 80%;
 }
 #cont2 {
-  padding-left: 100px;
+  padding-left: 250px;
+  padding-bottom: 50px;
   opacity:0.7;
   font-weight: lighter;
   font-family: 'Cutive Mono', monospace;
-  font-size: 1.7em;
+  font-size: 1.9em;
 }
 .cont3{
   font-size: 1.3em;
   font-family: 'Cutive Mono', monospace;
   color:white;
   opacity:0.6;
-  padding-left:100px;
-  margin-top: -150px;
+  padding-left:60px;
+  margin-top: 65px;
 
 }
 .hr_cont {
   writing-mode: vertical-rl;
   height: 330px;
-  padding-left: 600px;
+  padding-left: 450px;
   margin-top: -310px;
 }
 .social_but img{
   max-width: 40px;
   max-height: 40px;
-  float:right;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  margin-right: 20px;
+  margin-right: 10px;
+  right:50px;
   background-color: white;
 
 
 }
 #soc_but{
-  margin-right: 120px;
-  margin-top: -50px;
+  margin-left: 120px;
+  margin-top: 0px;
+
 
 }
 .social_but #soc_but a img{
@@ -546,32 +558,37 @@ h3{
   font-family: 'Cutive Mono', monospace;
   color:white;
   opacity:0.6;
-  margin-left: 750px;
-  margin-top: 0px;
+  margin-left: 100px;
+  margin-top: 65px;
+}
+.main_cont_conteiner{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  justify-content: center;
 }
 /* Responsive -----------------------------*/
-@media(min-width:300px) and (max-width:900px){
+@media screen and (min-width:300px) and (max-width:900px){
   *{
-    max-width: 700px;
+    max-width: 900px;
+    box-sizing: content-box;
   }
 
-.main_photo>img {
-  height:0px;
-  width:0px;;
-}
-#main_photo2{
-  width: 600px;
-  height: 400px;
+
+.main_photo img{
+  width: 700px;
+  height: 450px;
   opacity: 1;
   margin-top: 30px;
-  margin-left:-30px;
+  margin-left:-300px;
   margin-bottom:150px;
 }
 #main_description p{
   color:#e6e6e6;
   margin-left: 50px;
   font-size: 10px;
-  margin-top: 320px;
+  margin-bottom: 50px;
+  margin-left:150px;
   position: absolute;
   font-family: 'Cutive Mono', monospace;
 }
@@ -588,7 +605,7 @@ h1 {
   font-weight: bold;
   opacity: 0.8;
   color:#e6e6e6;
-  margin-top:-400px;
+  margin-top:-350px;
   margin-left:100px;
 }
 h3{
@@ -600,7 +617,6 @@ h3{
 
 .about {
   width: 390px;
-  height: 400px;
   margin-top:350px;
   margin-left: 20px;
   margin-right: 20px;
@@ -627,6 +643,13 @@ h3{
   position:relative;
   text-align: center;
 }
+.conteiner_skill #about_me h1{
+    font-size: 25px;
+
+}
+.conteiner_skill #about_me_copy h3{
+    font-size: 15px;
+}
 .included{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -639,9 +662,10 @@ h3{
 
 }
 #skills{
-  max-width: 70%;
+  max-width: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap:25px;
   font-size: 10px;
   margin-top:60px;
   text-align: left;
@@ -657,6 +681,7 @@ h3{
   margin-bottom: 50px;
   margin-top: 60px;
   font-size: 10px;
+
 }
 #m{
   background-color: white;
@@ -665,7 +690,7 @@ h3{
   padding-right:10px;
   padding-top: 20px;
   padding-bottom: 20px;
-
+  font-size: 10px;
   text-align: center;
   margin-top:10px;
 }
@@ -678,6 +703,7 @@ h3{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 15px;
+    font-size: 10px;
   }
   .general_exp{
     font-family: 'Cutive Mono', monospace;
@@ -688,10 +714,10 @@ h3{
     margin-bottom: 50px;
     margin-top:10px;
     padding-top:11px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-bottom: 11px;
     font-size: 10px;
-    z-index: 1;
+
   }
   .g_2{
     font-size: 23px;;
@@ -735,6 +761,7 @@ h3{
     margin-bottom: 20px;
     opacity:0.85;
     height: 400px;
+    width: 90%;
     font-size: 10px;
     font-family: 'Cutive Mono', monospace;
     background-color: black;
@@ -785,8 +812,9 @@ h3{
     font-family: 'Cutive Mono', monospace;
     font-size: 10px;
     color:white;
+    width: 40%;
     margin-top: -20px;
-    margin-left: 120px;
+    margin-left: 220px;
     margin-right: 25px
     text-indent: 25px;
 
@@ -821,7 +849,7 @@ h3{
   margin-bottom: 100px;
   opacity:0.8;
   height: 500px;
-  width: 400px;
+  width: 90%;
   font-family: 'Cutive Mono', monospace;
   background-color: black;
   border:1em solid black;
@@ -836,19 +864,20 @@ h3{
 
  }
  .cont3{
-   font-size: 15px;
+   font-size: 1em;
    font-family: 'Cutive Mono', monospace;
    color:white;
    opacity:0.6;
-   padding-left:10px;
-   margin-top: -150px;
+   padding-left:10px !important;
+   margin-top:80px !important;
 
  }
  .hr_cont {
    writing-mode: vertical-rl;
    height: 222px;
-   padding-left: 303px;
+   padding-left: 230px;
    margin-top: -200px;
+   display: none;
  }
  .social_but img{
    max-width: 40px;
@@ -862,18 +891,22 @@ h3{
    background-color: white;
  }
 #soc_but{
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 20px;
+  margin-top: 40px;
 }
 #tel{
-  font-size: 10px;
+  font-size: 1em;
   font-family: 'Cutive Mono', monospace;
   color:white;
   opacity:0.6;
-  margin-left: 370px;
-  margin-top:50px;
+  margin-left: 10px !important;
+  margin-top:100px !important;
+  z-index: 2;
 }
-
+.main_cont_conteiner{
+  display: grid;
+  grid-column: 1fr 1fr;
+}
 #navbar {
 
   top: -400px;
@@ -894,7 +927,9 @@ h3{
   font-weight:bold;
 
 }
-
-
+.main a{
+display: none !important;
+}
 
 }
+/*---------responsive for phone----------*/
