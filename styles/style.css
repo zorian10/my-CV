@@ -249,9 +249,11 @@ h3{
   color:white;
   opacity: 0.9;
   text-align: left;
-  padding: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
   font-size: 1.1em;
   font-family: 'Cutive Mono', monospace;
+
 }
 
 #add_ed{
@@ -259,9 +261,11 @@ h3{
   color:black;
   opacity:0.9;
   text-align: left;
-  padding:30px;
+  padding-top:60px;
+  padding-right: 20px;
   font-size: 1.1em;
   font-family: 'Cutive Mono', monospace;
+  height: 200px;
 }
 #m{
   background-color: white;
@@ -273,7 +277,8 @@ h3{
   writing-mode: vertical-rl;
   float:left;
   text-align: center;
-  margin-top:10px;
+  margin-top:40px;
+
 }
 #a{
     background-color: black;
@@ -281,11 +286,13 @@ h3{
     opacity:0.9;
     padding-left: 10px;
     padding-right:10px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     writing-mode: vertical-rl;
     float:left;
+
     margin-right: 15px;
+    word-spacing: 15px;
 
   }
 
